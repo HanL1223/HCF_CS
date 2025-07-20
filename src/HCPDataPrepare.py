@@ -140,9 +140,12 @@ class HCPDataPreparer:
 
         logging.info("7. Final Cleaning")
         self._final_cleaning()
+        # Construct relative path from src to ../data/processed/
+        output_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'processed', 'HCP_Processed.csv')
+        output_path = os.path.abspath(output_path)  # Convert to absolute path safely
 
-        
-
+        self.df.to_csv(output_path, index=False)
+        logging.info(f"Processed data saved to {output_path}")
         return self.df
 
 
