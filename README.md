@@ -106,9 +106,9 @@ HCP Dataset contains 162 attributes which can be briefly break into different gr
 
 **Why:**  To identify procedures creating the greatest financial burden on patients. This is crucial for managing patient satisfaction, mitigating bad debt risk, and ensuring transparent, competitive pricing
 
-![Top10 outofpocket](reports\figures\Top10 outofpocket.png)
+[Top10 outofpocket](reports\figures\Top10 outofpocket.png)
 
-![Top10 outofpocket by category](reports\figures\Top10 outofpocket by category.png)
+[Top10 outofpocket by category](reports\figures\Top10 outofpocket by category.png)
 
 **Observation:** Align with total revenue, categories **M (Musculoskeletal)** and **Z (Health Services Contact)** also represent the highest out-of-pocket costs for patients. Conversely, categories **G (Nervous System)** and **A (Infectious Diseases)** show negative values, suggesting bundled payments may exceed actual charges. This could reflect efficient service delivery or potential revenue leakage.
 
